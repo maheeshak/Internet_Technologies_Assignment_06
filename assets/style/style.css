@@ -1,3 +1,12 @@
+body{
+    overflow-x: hidden;
+}
+.navigation{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    background: white;
+}
 .home {
     height: 100vh;
     width: 100vw;
@@ -11,13 +20,14 @@
     width: 50%;
     height: 100%;
     /*  background: lightpink;*/
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     display: flex;
     align-items: center;
 }
 
 #right_side {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+    padding: 50px 0 50px 0;
     width: 50%;
     height: 100%;
     /*  background: lightpink;*/
@@ -34,5 +44,181 @@
     height: 20%;
     border-radius: 10px;
     text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: black;
+    font-size: 40px;
+
+}
+
+.customer {
+    position: relative;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background: lightgreen;*/
+}
+
+.customer > section:first-child {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.customer > section:first-child > p {
+
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    margin: 0;
+
+}
+
+#customer_details > div > input {
+    width: 500px;
+}
+
+#customer_details {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+
+}
+
+#customer_buttons {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 350px;
+    margin: auto;
+
+}
+
+
+.customer > section:nth-child(2) {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    right: 0;
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.customer > section:nth-child(2) > table {
+
+    position: absolute;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+
+}
+
+.item {
+    position: relative;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background: lightgreen;*/
+}
+
+.item > section:first-child {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.item > section:first-child > p {
+
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin: 0;
+
+}
+
+#item_details > div > input {
+    width: 500px;
+}
+
+#item_details {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+
+}
+
+#item_buttons {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 350px;
+    margin: auto;
+
+}
+
+
+.item > section:nth-child(2) {
+
+    height: 80vh;
+    position: absolute;
+    /*background: lightpink;*/
+    right: 0;
+    width: 42vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.item > section:nth-child(2) > table {
+
+    position: absolute;
+    width: 500px;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+
 }
 
